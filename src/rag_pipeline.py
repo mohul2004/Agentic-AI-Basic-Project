@@ -2,6 +2,7 @@
 
 from src.retriever import get_retriever
 from src.answer_agent import generate_answer
+from src.verifier_agent import verify_answer
 
 
 def ask_question(question):
@@ -15,12 +16,19 @@ def ask_question(question):
         for doc in docs
     )
 
-    answer = generate_answer(
+    answer_response = generate_answer(
         question,
         context
     )
 
+    verification = verify_answer(
+        question,
+        context,
+        answer_response
+    )
+
     return {
-        "answer": answer,
+        "response": answer_response,
+        "verification": verification,
         "documents": docs
     }

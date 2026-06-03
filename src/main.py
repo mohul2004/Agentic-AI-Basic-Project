@@ -33,22 +33,16 @@ def main():
             result = ask_question(question)
 
             print("\n" + "-" * 60)
-            print("ANSWER")
+            print("RESPONSE")
             print("-" * 60)
 
-            print(result["answer"])
+            print(result["response"])
 
-            print("\nSOURCES")
+            print("\n" + "-" * 60)
+            print("VERIFICATION")
+            print("-" * 60)
 
-            shown_sources = set()
-
-            for doc in result["documents"]:
-
-                source = doc.metadata.get("source", "Unknown")
-
-                if source not in shown_sources:
-                    print(f"- {source}")
-                    shown_sources.add(source)
+            print(result["verification"])
 
             print("\n")
 

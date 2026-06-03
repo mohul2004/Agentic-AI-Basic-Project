@@ -27,20 +27,34 @@ def generate_answer(question, context):
     llm = get_llm()
 
     prompt = f"""
-You are the KIIT Student Handbook Assistant.
+You are a reasoning agent for a university handbook assistant.
 
-Answer ONLY using the provided context.
+Using ONLY the provided context:
 
-If the answer is not found in the context, say:
-"I could not find that information in the provided documents."
+1. Create a reasoning trace.
+2. Use numbered reasoning steps.
+3. Keep each step concise.
+4. Then provide a final answer.
+
+Format exactly as:
+
+REASONING TRACE
+
+Step 1: ...
+
+Step 2: ...
+
+Step 3: ...
+
+FINAL ANSWER
+
+...
 
 Question:
 {question}
 
 Context:
 {context}
-
-Answer:
 """
 
     response = llm.invoke(prompt)
