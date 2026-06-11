@@ -1,0 +1,41 @@
+question,qcas,embedding_qcas,trs,hoi,cl,verdict,reliability_score,reliability_label
+A student has 78% attendance and was absent due to participation in an official university sports event. Can the student appear in the examination?,5.94,0.594,0.833,1,3,SUPPORTED,0.74,QUESTIONABLE
+A student has 78% attendance and was absent due to participation in an official university sports event. Can the student appear in the examination?,5.94,0.594,0.917,3,1,SUPPORTED,0.768,QUESTIONABLE
+A student is debarred due to attendance shortage but later attends summer classes with 75% attendance. What examinations can the student appear for?,6.71,0.671,0.917,1,3,SUPPORTED,0.797,QUESTIONABLE
+A student is debarred due to attendance shortage but later attends summer classes with 75% attendance. What examinations can the student appear for?,6.71,0.671,0.917,1,3,SUPPORTED,0.797,QUESTIONABLE
+A student has 68% attendance and applies for attendance condonation on medical grounds. Is the student eligible to appear in examinations?,6.8,0.68,0.75,1,3,SUPPORTED,0.741,QUESTIONABLE
+A student has 68% attendance and applies for attendance condonation on medical grounds. Is the student eligible to appear in examinations?,6.8,0.68,0.25,1,3,UNSUPPORTED,0.316,UNRELIABLE
+"If a student has attendance shortage in one subject but satisfies attendance requirements in all others, what happens?",6.35,0.635,0.0,1,3,SUPPORTED,0.463,UNRELIABLE
+"If a student has attendance shortage in one subject but satisfies attendance requirements in all others, what happens?",6.35,0.635,0.5,1,3,SUPPORTED,0.638,QUESTIONABLE
+A student is promoted to the next year with backlogs. Is the student eligible for scholarships or other academic benefits?,5.72,0.572,0.917,1,3,SUPPORTED,0.762,QUESTIONABLE
+A student is promoted to the next year with backlogs. Is the student eligible for scholarships or other academic benefits?,5.72,0.572,0.583,2,2,UNSUPPORTED,0.394,UNRELIABLE
+A boarder hosts a friend from another hostel and alcohol is later found in the room. What hostel violations have occurred?,6.66,0.666,0.917,3,1,SUPPORTED,0.793,QUESTIONABLE
+A boarder hosts a friend from another hostel and alcohol is later found in the room. What hostel violations have occurred?,6.66,0.666,1.0,,0,SUPPORTED,0.833,RELIABLE
+A boarder organizes a birthday celebration and guests from outside the hostel are present. Which rules are violated?,7.13,0.713,1.0,,0,UNSUPPORTED,0.6,UNRELIABLE
+A boarder organizes a birthday celebration and guests from outside the hostel are present. Which rules are violated?,7.13,0.713,0.667,3,1,SUPPORTED,0.722,QUESTIONABLE
+"If alcohol is found during a hostel inspection, what disciplinary actions may follow?",6.12,0.612,1.0,,0,SUPPORTED,0.814,RELIABLE
+"If alcohol is found during a hostel inspection, what disciplinary actions may follow?",6.12,0.612,0.917,2,2,SUPPORTED,0.775,QUESTIONABLE
+An invigilator discovers a student using a mobile phone during an examination. What procedures must be followed?,6.9,0.69,0.917,2,2,UNSUPPORTED,0.552,UNRELIABLE
+An invigilator discovers a student using a mobile phone during an examination. What procedures must be followed?,6.9,0.69,1.0,,0,SUPPORTED,0.841,RELIABLE
+A student is caught communicating with another student during an examination. What actions are required under university regulations?,5.7,0.57,0.583,1,3,SUPPORTED,0.645,QUESTIONABLE
+A student is caught communicating with another student during an examination. What actions are required under university regulations?,5.7,0.57,0.667,3,1,SUPPORTED,0.672,QUESTIONABLE
+A student attends 75% summer classes after being debarred and later seeks scholarship eligibility. Is the student eligible?,5.27,0.527,1.0,,0,SUPPORTED,0.784,QUESTIONABLE
+A student attends 75% summer classes after being debarred and later seeks scholarship eligibility. Is the student eligible?,5.27,0.527,0.917,3,1,UNSUPPORTED,0.494,UNRELIABLE
+Can a student with attendance shortage regain eligibility through summer classes for all academic benefits?,5.91,0.591,0.583,2,2,UNSUPPORTED,0.401,UNRELIABLE
+Can a student with attendance shortage regain eligibility through summer classes for all academic benefits?,5.91,0.591,0.917,3,1,UNSUPPORTED,0.517,UNRELIABLE
+A student has 80% attendance but has not paid examination fees. Can the student appear in examinations?,6.66,0.666,0.25,1,3,UNSUPPORTED,0.312,UNRELIABLE
+A student has 80% attendance but has not paid examination fees. Can the student appear in examinations?,6.66,0.666,0.667,2,2,SUPPORTED,0.707,QUESTIONABLE
+A student satisfies attendance requirements but has not received an admit card. Can the student sit for the examination?,6.68,0.668,1.0,,0,UNSUPPORTED,0.584,UNRELIABLE
+A student satisfies attendance requirements but has not received an admit card. Can the student sit for the examination?,6.68,0.668,0.917,1,3,SUPPORTED,0.796,QUESTIONABLE
+What conditions must simultaneously be satisfied before a student can legally appear in an examination?,6.77,0.677,1.0,,0,UNSUPPORTED,0.587,UNRELIABLE
+What conditions must simultaneously be satisfied before a student can legally appear in an examination?,6.77,0.677,0.833,2,2,UNSUPPORTED,0.518,UNRELIABLE
+Can a student with less than 70% attendance appear in supplementary examinations after summer classes?,6.85,0.685,0.667,3,1,UNSUPPORTED,0.462,UNRELIABLE
+Can a student with less than 70% attendance appear in supplementary examinations after summer classes?,6.85,0.685,0.667,2,2,UNSUPPORTED,0.463,UNRELIABLE
+A student has 78% attendance and receives a 5% attendance concession. Does this satisfy examination eligibility requirements?,6.27,0.627,0.583,1,3,SUPPORTED,0.664,QUESTIONABLE
+A student has 78% attendance and receives a 5% attendance concession. Does this satisfy examination eligibility requirements?,6.27,0.627,0.5,1,3,SUPPORTED,0.635,QUESTIONABLE
+A student violates hostel alcohol regulations and also damages hostel property. What violations apply?,6.36,0.636,1.0,,0,UNSUPPORTED,0.573,UNRELIABLE
+A student violates hostel alcohol regulations and also damages hostel property. What violations apply?,6.36,0.636,1.0,,0,UNSUPPORTED,0.573,UNRELIABLE
+"If multiple examination misconducts occur during the same examination, how should they be handled according to regulations?",6.09,0.609,0.5,1,3,UNSUPPORTED,0.379,UNRELIABLE
+A student is eligible by attendance but is found violating examination conduct rules. Can the student continue the examination?,7.17,0.717,0.0,1,3,UNSUPPORTED,0.242,UNRELIABLE
+"If multiple examination misconducts occur during the same examination, how should they be handled according to regulations?",6.09,0.609,0.833,1,3,SUPPORTED,0.746,QUESTIONABLE
+A student is eligible by attendance but is found violating examination conduct rules. Can the student continue the examination?,7.17,0.717,0.833,1,3,UNSUPPORTED,0.533,UNRELIABLE

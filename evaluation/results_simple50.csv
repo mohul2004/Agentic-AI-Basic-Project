@@ -1,0 +1,51 @@
+question,qcas,embedding_qcas,trs,hoi,cl,verdict,reliability_score,reliability_label
+Is alcohol consumption allowed in hostel?,5.83,0.583,1.0,,0,SUPPORTED,0.804,RELIABLE
+What happens if a student consumes alcohol in hostel?,5.64,0.564,1.0,,0,SUPPORTED,0.797,QUESTIONABLE
+Is smoking allowed inside the hostel?,6.35,0.635,1.0,,0,SUPPORTED,0.822,RELIABLE
+Can students keep narcotic substances in hostel?,5.44,0.544,1.0,,0,SUPPORTED,0.79,QUESTIONABLE
+What punishment may occur for violating hostel rules?,7.42,0.742,1.0,,0,SUPPORTED,0.86,RELIABLE
+What is the minimum attendance requirement?,5.76,0.576,0.583,1,3,SUPPORTED,0.647,QUESTIONABLE
+Can a student with attendance below 75 percent appear in examinations?,6.41,0.641,0.583,2,2,SUPPORTED,0.668,QUESTIONABLE
+What are the eligibility conditions for appearing in an end semester examination?,7.53,0.753,0.917,2,2,SUPPORTED,0.825,RELIABLE
+How does attendance affect examination eligibility?,6.89,0.689,0.917,2,2,SUPPORTED,0.802,RELIABLE
+Can attendance shortage affect academic progress?,5.06,0.506,1.0,,0,SUPPORTED,0.777,QUESTIONABLE
+Who appoints invigilators?,5.17,0.517,1.0,,0,SUPPORTED,0.781,QUESTIONABLE
+What are the functions of invigilators?,5.32,0.532,1.0,,0,SUPPORTED,0.786,QUESTIONABLE
+What are the functions of invigilators during offline physical examinations?,5.94,0.594,1.0,,0,UNSUPPORTED,0.558,UNRELIABLE
+When should invigilators report before an examination?,6.39,0.639,1.0,,0,SUPPORTED,0.824,RELIABLE
+Can mobile phones be used during examinations?,5.51,0.551,1.0,,0,SUPPORTED,0.793,QUESTIONABLE
+What should invigilators do if malpractice occurs?,5.95,0.595,1.0,,0,SUPPORTED,0.808,RELIABLE
+What is the role of the Slot Coordinator?,5.61,0.561,0.833,1,3,UNSUPPORTED,0.479,UNRELIABLE
+What materials do invigilators collect?,4.09,0.409,0.5,1,3,SUPPORTED,0.559,UNRELIABLE
+What responsibilities does the Centre Superintendent have?,5.87,0.587,1.0,,0,SUPPORTED,0.805,RELIABLE
+How are attendance records maintained during examinations?,6.07,0.607,0.917,3,1,UNSUPPORTED,0.522,UNRELIABLE
+What is the scholarship eligibility?,4.9,0.49,0.833,2,2,UNSUPPORTED,0.453,UNRELIABLE
+Can a student with backlogs receive scholarship benefits?,4.71,0.471,1.0,,0,UNSUPPORTED,0.515,UNRELIABLE
+Can a student promoted with backlogs receive university benefits?,5.79,0.579,1.0,,0,SUPPORTED,0.803,RELIABLE
+Do backlogs affect scholarships?,4.63,0.463,0.833,1,3,SUPPORTED,0.695,QUESTIONABLE
+Can students with backlogs receive awards?,5.5,0.55,0.833,1,3,SUPPORTED,0.725,QUESTIONABLE
+What are the requirements for obtaining a B.Tech degree?,6.56,0.656,1.0,,0,SUPPORTED,0.83,RELIABLE
+What grades are required to complete a degree?,5.9,0.59,1.0,,0,SUPPORTED,0.806,RELIABLE
+What are the credit requirements for graduation?,6.0,0.6,1.0,,0,SUPPORTED,0.81,RELIABLE
+Who is eligible for medals and awards?,6.22,0.622,1.0,,0,SUPPORTED,0.818,RELIABLE
+Can a student with failed subjects graduate?,5.09,0.509,0.667,3,1,UNSUPPORTED,0.401,UNRELIABLE
+What placement opportunities are available?,2.97,0.297,0.917,1,3,SUPPORTED,0.666,QUESTIONABLE
+What is the average placement package?,3.32,0.332,0.0,1,3,UNSUPPORTED,0.107,UNRELIABLE
+Which companies visit the campus?,3.37,0.337,0.917,3,1,UNSUPPORTED,0.428,UNRELIABLE
+How many students get placements every year?,4.86,0.486,0.667,3,1,UNSUPPORTED,0.393,UNRELIABLE
+What is the university ranking?,5.41,0.541,0.667,1,3,UNSUPPORTED,0.414,UNRELIABLE
+What internships are offered?,3.78,0.378,0.917,3,1,UNSUPPORTED,0.442,UNRELIABLE
+What hostel food facilities are available?,4.38,0.438,0.917,3,1,UNSUPPORTED,0.463,UNRELIABLE
+How is hostel food quality monitored?,4.27,0.427,0.75,1,3,UNSUPPORTED,0.403,UNRELIABLE
+Who is the Prime Minister of India?,2.37,0.237,0.667,3,1,UNSUPPORTED,0.305,UNRELIABLE
+What is the capital of France?,0.43,0.043,0.0,1,3,UNSUPPORTED,0.006,UNRELIABLE
+Explain machine learning.,1.91,0.191,0.917,3,1,UNSUPPORTED,0.377,UNRELIABLE
+What is quantum computing?,1.56,0.156,0.25,1,3,UNSUPPORTED,0.133,UNRELIABLE
+What is blockchain technology?,1.55,0.155,0.5,1,3,UNSUPPORTED,0.22,UNRELIABLE
+Who won the Cricket World Cup?,2.12,0.212,0.0,1,3,UNSUPPORTED,0.065,UNRELIABLE
+Can students consume alcohol if they have 90 percent attendance?,4.7,0.47,0.5,1,3,UNSUPPORTED,0.331,UNRELIABLE
+Can paying examination fees compensate for attendance shortage?,5.87,0.587,0.583,2,2,UNSUPPORTED,0.399,UNRELIABLE
+Can an invigilator waive university regulations?,6.12,0.612,0.917,3,1,UNSUPPORTED,0.524,UNRELIABLE
+Can a student with scholarships ignore attendance requirements?,5.04,0.504,0.583,2,2,UNSUPPORTED,0.37,UNRELIABLE
+Can a hostel boarder avoid punishment for a first violation?,7.1,0.71,0.917,3,1,UNSUPPORTED,0.558,UNRELIABLE
+Does paying fees automatically make a student eligible for examinations?,5.72,0.572,1.0,,0,SUPPORTED,0.8,RELIABLE

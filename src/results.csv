@@ -1,0 +1,21 @@
+question,qcas,embedding_qcas,trs,hoi,cl,verdict,reliability_score,reliability_label
+What is the minimum attendance requirement?,5.76,0.576,0.5,,0,SUPPORTED,0.627,QUESTIONABLE
+What is the minimum attendance requirement?,5.76,0.576,0.5,,0,SUPPORTED,0.627,QUESTIONABLE
+What is the minimum attendance requirement?,5.76,0.576,0.5,,0,SUPPORTED,0.627,QUESTIONABLE
+minimum attendance to sit in exams?,7.12,0.712,0.833,,0,UNSUPPORTED,0.541,UNRELIABLE
+minimum attendance required to appear in examinations?,7.46,0.746,0.917,,0,UNSUPPORTED,0.582,UNRELIABLE
+what is the minimum attendance required to sit for examinations in general?,7.21,0.721,0.917,,0,UNSUPPORTED,0.573,UNRELIABLE
+what is the minimum attendance required to appear in examinations in general?,7.3,0.73,1.0,,0,SUPPORTED,0.855,RELIABLE
+when is a student eligible for scholarships?,4.14,0.414,0.833,,0,UNSUPPORTED,0.436,UNRELIABLE
+what are the functions of invigilators in physical examinations?,5.97,0.597,0.833,,0,SUPPORTED,0.75,QUESTIONABLE
+what are the different types of engineering courses available?,5.02,0.502,1.0,,0,UNSUPPORTED,0.526,UNRELIABLE
+is alcohol consumption allowed in hostel?,5.83,0.583,0.75,,0,SUPPORTED,0.717,QUESTIONABLE
+A student has 78% attendance in a subject and was absent due to participation in an official university sports event. Can the student be permitted to appear in the examination?,6.02,0.602,0.833,,0,SUPPORTED,0.752,QUESTIONABLE
+A student has 78% attendance in a subject and was absent due to participation in an official university sports event. Can the student be permitted to appear in the examination?,6.02,0.602,0.917,,0,SUPPORTED,0.782,QUESTIONABLE
+"If an invigilator notices a student using a mobile phone during an examination, what sequence of actions should be taken according to the regulations?",7.12,0.712,0.917,,0,UNSUPPORTED,0.57,UNRELIABLE
+"A boarder hosts a friend from another hostel, organizes a birthday celebration, and alcohol is found in the room. What disciplinary violations have occurred?",6.4,0.64,0.75,,0,SUPPORTED,0.736,QUESTIONABLE
+A student has 78% attendance in a subject and was absent due to participation in an official university sports event. Can the student be permitted to appear in the examination?,6.02,0.602,0.833,2,2,SUPPORTED,0.742,QUESTIONABLE
+"A student is debarred due to attendance shortage in a subject. After attending summer classes with 75% attendance, what examinations can the student appear for and under what conditions?",7.13,0.713,0.833,1,3,UNSUPPORTED,0.532,UNRELIABLE
+"If an invigilator notices a student using a mobile phone during an examination, what sequence of actions should be taken according to the regulations?",7.12,0.712,1.0,,0,SUPPORTED,0.849,RELIABLE
+"A boarder hosts a friend from another hostel, organizes a birthday celebration, and alcohol is found in the room. What disciplinary violations have occurred?",6.4,0.64,1.0,,0,SUPPORTED,0.824,RELIABLE
+is alcohol consumption legal in hostel?,5.75,0.575,1.0,,0,SUPPORTED,0.801,RELIABLE
