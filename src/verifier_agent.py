@@ -1,70 +1,83 @@
 from src.answer_agent import get_llm
 
 
+def extract_final_answer(response_text):
+
+    if "FINAL ANSWER" in response_text:
+
+        return response_text.split(
+            "FINAL ANSWER"
+        )[-1].strip()
+
+    return response_text
+
 def verify_answer(question, context, response_text):
 
     llm = get_llm()
 
     prompt = f"""
-You are an academic answer verification agent.
+    You are a strict answer verification agent.
 
-Your task is to determine whether the FINAL ANSWER correctly answers the QUESTION using the CONTEXT.
+    Your task is to determine whether the FINAL ANSWER is supported by the CONTEXT and correctly answers the QUESTION.
 
-Evaluation Rules:
+    Verification Procedure:
 
-1. First identify what the QUESTION is actually asking.
+    STEP 1:
+    Identify what the QUESTION is asking.
 
-2. Determine the MAIN RULE in the context that answers the question.
+    STEP 2:
+    Identify the key facts in the CONTEXT relevant to the question.
 
-3. Distinguish between:
-   - General rules
-   - Special cases
-   - Exceptions
-   - Additional conditions
+    STEP 3:
+    Determine whether the FINAL ANSWER can be reasonably derived from those facts.
 
-4. The answer should be judged against the MAIN RULE that most directly answers the question.
+    Important Rules:
 
-5. Do NOT reject an answer simply because additional conditions exist in the context.
+    1. Focus on semantic meaning, not exact wording.
 
-6. Do NOT prefer exceptions over general rules unless the question explicitly asks about exceptions.
+    2. Treat synonymous phrases as equivalent.
 
-7. If the answer correctly states the main rule, mark it SUPPORTED even if additional related information exists.
+    Examples:
+    - appear in an examination
+    - sit for an examination
+    - take an examination
 
-8. Mark UNSUPPORTED if:
-   - the answer contradicts the context
-   - the answer uses an exception instead of the general rule
-   - the answer ignores the rule that most directly answers the question
-   - the answer cannot be derived from the context
+    may be treated as equivalent unless explicitly distinguished.
 
-9. Be careful with synonymous phrases.
+    3. An answer may be more concise than the context.
 
-Examples:
-- "sit for an examination"
-- "appear in an examination"
-- "take an examination"
+    4. An answer does NOT need to repeat every supporting fact.
 
-should normally be treated as equivalent unless the context explicitly distinguishes them.
+    5. If the answer correctly captures the meaning of the relevant evidence, mark SUPPORTED.
 
-Output Format:
+    6. Mark UNSUPPORTED only if:
+       - it contradicts evidence
+       - it introduces unsupported claims
+       - it cannot be derived from evidence
+       - it answers a different question
 
-VERDICT: SUPPORTED
+    7. Do NOT reject an answer merely because additional details exist in the context.
 
-or
+    Output format:
 
-VERDICT: UNSUPPORTED
+    VERDICT: SUPPORTED
 
-Explanation:
-<short explanation>
+    or
 
-QUESTION:
-{question}
+    VERDICT: UNSUPPORTED
 
-CONTEXT:
-{context}
+    Explanation:
+    <1-2 sentence explanation>
 
-ANSWER:
-{response_text}
-"""
+    QUESTION:
+    {question}
+
+    CONTEXT:
+    {context}
+
+    ANSWER:
+    {response_text}
+    """
 
     response = llm.invoke(prompt)
 

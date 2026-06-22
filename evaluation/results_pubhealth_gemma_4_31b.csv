@@ -1,0 +1,151 @@
+question,generated_answer,ground_truth,qcas,embedding_qcas,trs,hoi,cl,verdict,reliability_score,reliability_label
+"Determine whether the following health claim is true or false:
+
+Ted Cruz Says Democrats are embracing “abortion up until the moment of birth and even, horrifically, after that.”",False,false,6.57,0.657,1.0,,0,SUPPORTED,0.83,RELIABLE
+"Determine whether the following health claim is true or false:
+
+A video shows a sick, possibly starving polar bear on Baffin Island in the Canadian Arctic.",True,true,6.4,0.64,0.667,2,2,SUPPORTED,0.697,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+“On February 7, the WHO warned about the limited stock of PPE. That same day, the Trump administration announced it was sending 18 tons of masks, gowns and respirators to China.”",True,true,6.39,0.639,0.667,3,1,SUPPORTED,0.696,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Drug Policy Alliance Says Debbie Wasserman Schultz ""voted repeatedly to send terminally ill patients to prison.",False,false,6.2,0.62,1.0,,0,SUPPORTED,0.817,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Claims of virgin births in U.S. near 1 percent: study.",True,true,6.16,0.616,0.333,2,2,SUPPORTED,0.572,UNRELIABLE
+"Determine whether the following health claim is true or false:
+
+Scientists grow viable vaginas from girls' own cells.",True,true,6.0,0.6,0.917,3,1,SUPPORTED,0.77,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+New blood test may predict cardiovascular events in patients with or without coronary artery disease, research shows",True,mixture,6.49,0.649,1.0,,0,SUPPORTED,0.827,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Estrogen Patch in Newly Postmenopausal Women May Reduce Alzheimer’s Risk",False,mixture,7.96,0.796,1.0,,0,SUPPORTED,0.879,RELIABLE
+"Determine whether the following health claim is true or false:
+
+High ambitions: Uruguay cannabis firm targets booming global market for medical marijuana.",True,true,6.56,0.656,1.0,,0,SUPPORTED,0.83,RELIABLE
+"Determine whether the following health claim is true or false:
+
+County board votes to evict Planned Parenthood health clinic.",True,true,5.87,0.587,1.0,,0,SUPPORTED,0.805,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Consuming tainted lettuce caused more deaths in 2018 than homicides perpetrated by undocumented immigrants. ",False,false,7.78,0.778,0.917,2,2,SUPPORTED,0.833,RELIABLE
+"Determine whether the following health claim is true or false:
+
+ A warning about a chemical   called benzene that is linked to cancer such as leukemia .  The   warning says that benzene can build up inside parked automobiles and   suggests that drivers roll down   their windows to ventilate the car’s interior prior to switching on   the air conditioner.      ",False,false,7.11,0.711,1.0,,0,SUPPORTED,0.849,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Increasing numbers of vaccines are associated with increasing rates of autism.",False,false,6.76,0.676,1.0,,0,SUPPORTED,0.837,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Rick Scott Says his tax and fee cuts will save households ""$540 over two years.",False,false,6.75,0.675,1.0,,0,SUPPORTED,0.836,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Viscosupplementation Recommended For Appropriate Patients with Knee Osteoarthritis","The claim is true according to the American Medical Society for Sports Medicine (AMSSM), which recommends viscosupplementation for patients above the age of 60 with Kellgren and Lawrence (KL) grade II-III knee osteoarthritis. However, the context notes this is controversial, as the American Academy of Orthopaedic Surgeons (AAOS) cannot recommend its use for patients with symptomatic OA of the knee, and a 2012 meta-analysis concluded the benefit is small and clinically irrelevant.",false,7.71,0.771,1.0,,0,SUPPORTED,0.87,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Health officials have seen a surge in the number of people using ""bug spray"" to get high.",False,false,5.92,0.592,0.583,1,3,SUPPORTED,0.652,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Georgia shelter quarantines dog area for parvovirus.",True,true,6.74,0.674,1.0,,0,SUPPORTED,0.836,RELIABLE
+"Determine whether the following health claim is true or false:
+
+China reports one more H7N9 bird flu death.",True,true,6.91,0.691,1.0,,0,SUPPORTED,0.842,RELIABLE
+"Determine whether the following health claim is true or false:
+
+The school shooting rate in non-Christian Japan is vastly lower than that of mostly Christian Texas.",True,true,7.03,0.703,0.833,2,2,SUPPORTED,0.778,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Recall: Nearly 57 tons of ground beef for possible E coli.",True,true,6.34,0.634,1.0,,0,SUPPORTED,0.822,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Within the three miles surrounding the University Circle area, infant mortality exceeds some Third World countries.",True,true,5.84,0.584,1.0,,0,SUPPORTED,0.804,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Immune-Focused Drug May Be New Weapon Against Advanced Melanoma",True,true,6.92,0.692,0.667,1,3,SUPPORTED,0.717,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Our spending has caught up with us, and our debt soon will eclipse the entire size of our national economy.",True,true,4.91,0.491,0.667,3,1,SUPPORTED,0.644,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Humira Provides Effective, Non-Steroid Alternative for Eye Inflammation",True,true,6.93,0.693,1.0,,0,SUPPORTED,0.843,RELIABLE
+"Determine whether the following health claim is true or false:
+
+The WHO coronavirus test “was a bad test.”",False,false,6.18,0.618,1.0,,0,SUPPORTED,0.816,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Clark County ranks first in nation in syphilis rates.",True,true,6.54,0.654,1.0,,0,SUPPORTED,0.829,RELIABLE
+"Determine whether the following health claim is true or false:
+
+A Time magazine cover from 1977 with the title “The Big Freeze” is an example of media fearmongering over  “global cooling” in the 1970s.",False,false,6.72,0.672,0.667,2,2,SUPPORTED,0.709,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Scarless weight-loss surgery: pacemaker for your hunger",False,mixture,6.35,0.635,0.667,2,2,SUPPORTED,0.696,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+President Obama was arrested in Japan in connection with the seizure of massive amounts of cocaine on his yacht.",False,false,7.13,0.713,1.0,,0,SUPPORTED,0.85,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Stephen Hawking's thesis and wheelchair sell for $1 million.",True,true,5.26,0.526,0.667,2,2,SUPPORTED,0.658,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+US patent number CA2741523 is for swine flu.",False,mixture,6.55,0.655,0.667,3,1,SUPPORTED,0.702,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+12 Minutes of Yoga for Better Bone Health",True,true,7.3,0.73,0.583,2,2,SUPPORTED,0.7,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+New Breast Reconstruction Technique Provides Better Outcomes, Less Discomfort for Women Recovering From Breast Cancer",False,false,6.55,0.655,0.583,1,3,SUPPORTED,0.674,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Wisconsin bill ""grants drug companies and medical device manufacturers immunity from injuries and deaths caused by their products.","False. The bill does not grant blanket immunity; immunity only applies if the drug or device has been approved by the FDA, and there are further exceptions such as fraud or failure to follow the approved design during manufacturing.",true,6.23,0.623,1.0,,0,SUPPORTED,0.818,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Starving prostate cancer with what you eat for dinner",False,false,5.71,0.571,0.667,2,2,SUPPORTED,0.673,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Thailand reports new coronavirus death as total cases reach 1,245.",True,true,6.48,0.648,0.667,3,1,SUPPORTED,0.699,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+US troops get freeze-dried plasma for battlefield bloodshed.",True,true,5.82,0.582,1.0,,0,SUPPORTED,0.804,RELIABLE
+"Determine whether the following health claim is true or false:
+
+A letter to the editor suggested that 2007's early start to Daylight Saving Time contributed to global warming.",True,mixture,6.13,0.613,1.0,,0,SUPPORTED,0.815,RELIABLE
+"Determine whether the following health claim is true or false:
+
+This town (Wilmington, Ohio) hasn’t taken any money from the government. They don’t want any money from the government.",Insufficient information in the provided context.,false,4.31,0.431,1.0,,0,SUPPORTED,0.751,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Donald Trump raped his former wife and a young woman, and his modeling agency was found to be trafficking young girls.",False,mixture,5.97,0.597,0.667,3,1,SUPPORTED,0.681,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Abortionists have reduced our black population by more than 25 percent since 1973.",False,false,6.12,0.612,0.667,3,1,SUPPORTED,0.687,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Novel Coronavirus (COVID-19) is no more dangerous than the common cold, and it's being blown out of proportion to make the President of the United States look bad.",False,false,6.89,0.689,1.0,,0,SUPPORTED,0.841,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Tumor-free flounder: Study underscores Boston Harbor rebirth.",True,true,6.46,0.646,0.667,3,1,SUPPORTED,0.699,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+GOP senators from NC come out against Trump EPA nominee.",True,true,5.54,0.554,1.0,,0,SUPPORTED,0.794,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Blue-green algae (known scientifically as cyanobacteria) are capable of poisoning dogs and other pets. ",True,true,7.81,0.781,0.917,2,2,SUPPORTED,0.834,RELIABLE
+"Determine whether the following health claim is true or false:
+
+John Holdren, director of the White House Office of Science and Technology Policy, ""has proposed forcing abortions and putting sterilants in the drinking water to control population.",False,false,6.53,0.653,1.0,,0,SUPPORTED,0.829,RELIABLE
+"Determine whether the following health claim is true or false:
+
+An inaudible sonic weapon adequately explains the range of symptoms experienced by diplomats suffering from “health attacks” in Cuba.",False,false,7.72,0.772,1.0,,0,SUPPORTED,0.87,RELIABLE
+"Determine whether the following health claim is true or false:
+
+Lamont fills top public health, insurance agency jobs.",True,true,5.4,0.54,1.0,,0,SUPPORTED,0.789,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Walter ""Blackie"" Wetzel, a former leader of the Blackfeet Nation, designed the Indian head logo for the Washington D.C. ""Redskins"" NFL team.",False,true,7.52,0.752,0.583,1,3,SUPPORTED,0.708,QUESTIONABLE
+"Determine whether the following health claim is true or false:
+
+Heroin comes in the United States ""from the southern border.",True,true,6.74,0.674,1.0,,0,SUPPORTED,0.836,RELIABLE

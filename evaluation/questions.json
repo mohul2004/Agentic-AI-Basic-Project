@@ -1,202 +1,202 @@
 [
-  {
-    "id": 1,
-    "question": "Is alcohol consumption allowed in hostel?"
-  },
-  {
-    "id": 2,
-    "question": "What happens if a student consumes alcohol in hostel?"
-  },
-  {
-    "id": 3,
-    "question": "Is smoking allowed inside the hostel?"
-  },
-  {
-    "id": 4,
-    "question": "Can students keep narcotic substances in hostel?"
-  },
-  {
-    "id": 5,
-    "question": "What punishment may occur for violating hostel rules?"
-  },
-  {
-    "id": 6,
-    "question": "What is the minimum attendance requirement?"
-  },
-  {
-    "id": 7,
-    "question": "Can a student with attendance below 75 percent appear in examinations?"
-  },
-  {
-    "id": 8,
-    "question": "What are the eligibility conditions for appearing in an end semester examination?"
-  },
-  {
-    "id": 9,
-    "question": "How does attendance affect examination eligibility?"
-  },
-  {
-    "id": 10,
-    "question": "Can attendance shortage affect academic progress?"
-  },
-  {
-    "id": 11,
-    "question": "Who appoints invigilators?"
-  },
-  {
-    "id": 12,
-    "question": "What are the functions of invigilators?"
-  },
-  {
-    "id": 13,
-    "question": "What are the functions of invigilators during offline physical examinations?"
-  },
-  {
-    "id": 14,
-    "question": "When should invigilators report before an examination?"
-  },
-  {
-    "id": 15,
-    "question": "Can mobile phones be used during examinations?"
-  },
-  {
-    "id": 16,
-    "question": "What should invigilators do if malpractice occurs?"
-  },
-  {
-    "id": 17,
-    "question": "What is the role of the Slot Coordinator?"
-  },
-  {
-    "id": 18,
-    "question": "What materials do invigilators collect?"
-  },
-  {
-    "id": 19,
-    "question": "What responsibilities does the Centre Superintendent have?"
-  },
-  {
-    "id": 20,
-    "question": "How are attendance records maintained during examinations?"
-  },
-  {
-    "id": 21,
-    "question": "What is the scholarship eligibility?"
-  },
-  {
-    "id": 22,
-    "question": "Can a student with backlogs receive scholarship benefits?"
-  },
-  {
-    "id": 23,
-    "question": "Can a student promoted with backlogs receive university benefits?"
-  },
-  {
-    "id": 24,
-    "question": "Do backlogs affect scholarships?"
-  },
-  {
-    "id": 25,
-    "question": "Can students with backlogs receive awards?"
-  },
-  {
-    "id": 26,
-    "question": "What are the requirements for obtaining a B.Tech degree?"
-  },
-  {
-    "id": 27,
-    "question": "What grades are required to complete a degree?"
-  },
-  {
-    "id": 28,
-    "question": "What are the credit requirements for graduation?"
-  },
-  {
-    "id": 29,
-    "question": "Who is eligible for medals and awards?"
-  },
-  {
-    "id": 30,
-    "question": "Can a student with failed subjects graduate?"
-  },
-  {
-    "id": 31,
-    "question": "What placement opportunities are available?"
-  },
-  {
-    "id": 32,
-    "question": "What is the average placement package?"
-  },
-  {
-    "id": 33,
-    "question": "Which companies visit the campus?"
-  },
-  {
-    "id": 34,
-    "question": "How many students get placements every year?"
-  },
-  {
-    "id": 35,
-    "question": "What is the university ranking?"
-  },
-  {
-    "id": 36,
-    "question": "What internships are offered?"
-  },
-  {
-    "id": 37,
-    "question": "What hostel food facilities are available?"
-  },
-  {
-    "id": 38,
-    "question": "How is hostel food quality monitored?"
-  },
-  {
-    "id": 39,
-    "question": "Who is the Prime Minister of India?"
-  },
-  {
-    "id": 40,
-    "question": "What is the capital of France?"
-  },
-  {
-    "id": 41,
-    "question": "Explain machine learning."
-  },
-  {
-    "id": 42,
-    "question": "What is quantum computing?"
-  },
-  {
-    "id": 43,
-    "question": "What is blockchain technology?"
-  },
-  {
-    "id": 44,
-    "question": "Who won the Cricket World Cup?"
-  },
-  {
-    "id": 45,
-    "question": "Can students consume alcohol if they have 90 percent attendance?"
-  },
-  {
-    "id": 46,
-    "question": "Can paying examination fees compensate for attendance shortage?"
-  },
-  {
-    "id": 47,
-    "question": "Can an invigilator waive university regulations?"
-  },
-  {
-    "id": 48,
-    "question": "Can a student with scholarships ignore attendance requirements?"
-  },
-  {
-    "id": 49,
-    "question": "Can a hostel boarder avoid punishment for a first violation?"
-  },
-  {
-    "id": 50,
-    "question": "Does paying fees automatically make a student eligible for examinations?"
-  }
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nTed Cruz Says Democrats are embracing “abortion up until the moment of birth and even, horrifically, after that.”",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nA video shows a sick, possibly starving polar bear on Baffin Island in the Canadian Arctic.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\n“On February 7, the WHO warned about the limited stock of PPE. That same day, the Trump administration announced it was sending 18 tons of masks, gowns and respirators to China.”",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nDrug Policy Alliance Says Debbie Wasserman Schultz \"voted repeatedly to send terminally ill patients to prison.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nClaims of virgin births in U.S. near 1 percent: study.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nScientists grow viable vaginas from girls' own cells.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nNew blood test may predict cardiovascular events in patients with or without coronary artery disease, research shows",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nEstrogen Patch in Newly Postmenopausal Women May Reduce Alzheimer’s Risk",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nHigh ambitions: Uruguay cannabis firm targets booming global market for medical marijuana.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nCounty board votes to evict Planned Parenthood health clinic.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nConsuming tainted lettuce caused more deaths in 2018 than homicides perpetrated by undocumented immigrants. ",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\n A warning about a chemical   called benzene that is linked to cancer such as leukemia .  The   warning says that benzene can build up inside parked automobiles and   suggests that drivers roll down   their windows to ventilate the car’s interior prior to switching on   the air conditioner.      ",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nIncreasing numbers of vaccines are associated with increasing rates of autism.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nRick Scott Says his tax and fee cuts will save households \"$540 over two years.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nViscosupplementation Recommended For Appropriate Patients with Knee Osteoarthritis",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nHealth officials have seen a surge in the number of people using \"bug spray\" to get high.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nGeorgia shelter quarantines dog area for parvovirus.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nChina reports one more H7N9 bird flu death.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nThe school shooting rate in non-Christian Japan is vastly lower than that of mostly Christian Texas.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nRecall: Nearly 57 tons of ground beef for possible E coli.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nWithin the three miles surrounding the University Circle area, infant mortality exceeds some Third World countries.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nImmune-Focused Drug May Be New Weapon Against Advanced Melanoma",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nOur spending has caught up with us, and our debt soon will eclipse the entire size of our national economy.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nHumira Provides Effective, Non-Steroid Alternative for Eye Inflammation",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nThe WHO coronavirus test “was a bad test.”",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nClark County ranks first in nation in syphilis rates.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nA Time magazine cover from 1977 with the title “The Big Freeze” is an example of media fearmongering over  “global cooling” in the 1970s.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nScarless weight-loss surgery: pacemaker for your hunger",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nPresident Obama was arrested in Japan in connection with the seizure of massive amounts of cocaine on his yacht.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nStephen Hawking's thesis and wheelchair sell for $1 million.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nUS patent number CA2741523 is for swine flu.",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\n12 Minutes of Yoga for Better Bone Health",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nNew Breast Reconstruction Technique Provides Better Outcomes, Less Discomfort for Women Recovering From Breast Cancer",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nWisconsin bill \"grants drug companies and medical device manufacturers immunity from injuries and deaths caused by their products.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nStarving prostate cancer with what you eat for dinner",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nThailand reports new coronavirus death as total cases reach 1,245.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nUS troops get freeze-dried plasma for battlefield bloodshed.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nA letter to the editor suggested that 2007's early start to Daylight Saving Time contributed to global warming.",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nThis town (Wilmington, Ohio) hasn’t taken any money from the government. They don’t want any money from the government.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nDonald Trump raped his former wife and a young woman, and his modeling agency was found to be trafficking young girls.",
+        "ground_truth": "mixture"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nAbortionists have reduced our black population by more than 25 percent since 1973.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nNovel Coronavirus (COVID-19) is no more dangerous than the common cold, and it's being blown out of proportion to make the President of the United States look bad.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nTumor-free flounder: Study underscores Boston Harbor rebirth.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nGOP senators from NC come out against Trump EPA nominee.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nBlue-green algae (known scientifically as cyanobacteria) are capable of poisoning dogs and other pets. ",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nJohn Holdren, director of the White House Office of Science and Technology Policy, \"has proposed forcing abortions and putting sterilants in the drinking water to control population.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nAn inaudible sonic weapon adequately explains the range of symptoms experienced by diplomats suffering from “health attacks” in Cuba.",
+        "ground_truth": "false"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nLamont fills top public health, insurance agency jobs.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nWalter \"Blackie\" Wetzel, a former leader of the Blackfeet Nation, designed the Indian head logo for the Washington D.C. \"Redskins\" NFL team.",
+        "ground_truth": "true"
+    },
+    {
+        "question": "Determine whether the following health claim is true or false:\n\nHeroin comes in the United States \"from the southern border.",
+        "ground_truth": "true"
+    }
 ]

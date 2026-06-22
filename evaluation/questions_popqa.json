@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is George Rankin's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is John Mayne's occupation?",
+        "ground_truth": "[\"journalist\", \"journo\", \"journalists\"]"
+    },
+    {
+        "question": "What is Henry Feilden's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Kathy Saltzman's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Eleanor Davis's occupation?",
+        "ground_truth": "[\"cartoonist\", \"graphic artist\", \"animator\", \"illustrator\"]"
+    },
+    {
+        "question": "What is Alexander Rinnooy Kan's occupation?",
+        "ground_truth": "[\"mathematician\", \"economist\", \"economists\"]"
+    },
+    {
+        "question": "What is Scooter Braun's occupation?",
+        "ground_truth": "[\"talent manager\", \"artist manager\", \"band manager\", \"music manager\", \"musician manager\", \"manager\", \"pop entrepreneur\"]"
+    },
+    {
+        "question": "What is Leona Detiège's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is William Murray, 1st Earl of Mansfield's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Þorsteinn Bachmann's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Herlyn Espinal's occupation?",
+        "ground_truth": "[\"journalist\", \"journo\", \"journalists\"]"
+    },
+    {
+        "question": "What is Jacob Kraemer's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Fred C. Newmeyer's occupation?",
+        "ground_truth": "[\"film director\", \"movie director\", \"director\", \"motion picture director\", \"film producer\", \"movie producer\", \"producer\", \"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Edward Corser's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Bae Geu-rin's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Javier Alva Orlandini's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Edgar Allan Poe's occupation?",
+        "ground_truth": "[\"journalist\", \"journo\", \"journalists\", \"playwright\", \"dramatist\", \"playwrite\", \"scriptwriter\", \"poet\", \"poetess\", \"bard\"]"
+    },
+    {
+        "question": "What is John Finlay's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is John Floyd's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Sachiko Kokubu's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\", \"model\", \"fashion model\", \"sitter\", \"poser\"]"
+    },
+    {
+        "question": "What is Rudolf Hilferding's occupation?",
+        "ground_truth": "[\"economist\", \"economists\", \"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Charles Strachey, 4th Baron O'Hagan's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Akari Hayami's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Richard Martin's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Harvey Peltier, Sr.'s occupation?",
+        "ground_truth": "[\"lawyer\", \"attorney\", \"solicitor\", \"barrister\", \"lawyers\", \"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Paris's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Fairfax M. Cone's occupation?",
+        "ground_truth": "[\"businessperson\", \"business person\", \"dealer\", \"businesswoman\", \"business man\", \"business woman\", \"businessman\"]"
+    },
+    {
+        "question": "What is Colleen Zenk Pinter's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Thomas McMurtry's occupation?",
+        "ground_truth": "[\"test pilot\"]"
+    },
+    {
+        "question": "What is Albert Bates's occupation?",
+        "ground_truth": "[\"lawyer\", \"attorney\", \"solicitor\", \"barrister\", \"lawyers\"]"
+    },
+    {
+        "question": "What is Heath's occupation?",
+        "ground_truth": "[\"songwriter\", \"song writer\"]"
+    },
+    {
+        "question": "What is Wise's occupation?",
+        "ground_truth": "[\"record producer\", \"music producer\"]"
+    },
+    {
+        "question": "What is Stevie Cameron's occupation?",
+        "ground_truth": "[\"journalist\", \"journo\", \"journalists\"]"
+    },
+    {
+        "question": "What is Yoshiki Tonogai's occupation?",
+        "ground_truth": "[\"mangaka\", \"manga artist\"]"
+    },
+    {
+        "question": "What is Geeling Ng's occupation?",
+        "ground_truth": "[\"restaurateur\", \"gastronomist\", \"restauranteur\"]"
+    },
+    {
+        "question": "What is Bruce McDaniel's occupation?",
+        "ground_truth": "[\"composer\"]"
+    },
+    {
+        "question": "What is Thomas R. Whitney's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is William Lescaze's occupation?",
+        "ground_truth": "[\"architect\"]"
+    },
+    {
+        "question": "What is Edwin Wallock's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Tsutomu Seki's occupation?",
+        "ground_truth": "[\"astronomer\"]"
+    },
+    {
+        "question": "What is Matthew McKay's occupation?",
+        "ground_truth": "[\"dentist\", \"dentists\", \"dental surgeon\"]"
+    },
+    {
+        "question": "What is Dominick Bellizzi's occupation?",
+        "ground_truth": "[\"jockey\"]"
+    },
+    {
+        "question": "What is William Watson's occupation?",
+        "ground_truth": "[\"physician\", \"physicians\", \"medical doctor\", \"medical practitioner\", \"doctor\", \"medical doctors\"]"
+    },
+    {
+        "question": "What is Sarah Dawn Finer's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\", \"songwriter\", \"song writer\"]"
+    },
+    {
+        "question": "What is Brendan Canty's occupation?",
+        "ground_truth": "[\"composer\", \"musician\", \"musical artist\"]"
+    },
+    {
+        "question": "What is María Elena Marqués's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Michael Arad's occupation?",
+        "ground_truth": "[\"architect\"]"
+    },
+    {
+        "question": "What is Patrick O'Brien Demsey's occupation?",
+        "ground_truth": "[\"actor\", \"actress\", \"actors\", \"actresses\"]"
+    },
+    {
+        "question": "What is Ole Krarup's occupation?",
+        "ground_truth": "[\"politician\", \"political leader\", \"political figure\", \"polit.\", \"pol\"]"
+    },
+    {
+        "question": "What is Antonio Álvarez Alonso's occupation?",
+        "ground_truth": "[\"composer\", \"pianist\"]"
+    }
+]

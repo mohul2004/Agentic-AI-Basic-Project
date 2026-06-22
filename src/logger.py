@@ -1,12 +1,13 @@
 import csv
 import os
 
-
 CSV_FILE = "results.csv"
 
 
 def log_result(
         question,
+        generated_answer,
+        ground_truth,
         qcas,
         embedding_qcas,
         trs,
@@ -32,6 +33,8 @@ def log_result(
 
             writer.writerow([
                 "question",
+                "generated_answer",
+                "ground_truth",
                 "qcas",
                 "embedding_qcas",
                 "trs",
@@ -44,6 +47,8 @@ def log_result(
 
         writer.writerow([
             question,
+            generated_answer,
+            ground_truth,
             qcas,
             embedding_qcas,
             trs,

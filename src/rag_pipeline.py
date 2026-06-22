@@ -1,19 +1,18 @@
 # Connecting:
-# PDF -> FAISS -> Retriever
-# Question + Context -> OpenRouter LLM -> Answer
+# Dataset -> FAISS -> Retriever
+# Question + Context -> LLM -> Answer
 
 from src.retriever import get_retriever
 from src.answer_agent import generate_answer
 from src.verifier_agent import verify_answer
 from src.trace_verifier import verify_trace
 from src.metrics import compute_metrics
-from src.question_alignment_verifier import (
-    compute_qcas
-)
-from src.reliability_engine import (
-    compute_reliability
-)
+from src.question_alignment_verifier import compute_qcas
+from src.reliability_engine import compute_reliability
 from src.logger import log_result
+
+from src.verifier_agent import extract_final_answer
+
 import re
 
 
@@ -30,7 +29,10 @@ def extract_verdict(text):
     return "UNKNOWN"
 
 
-def ask_question(question):
+def ask_question(
+        question,
+        ground_truth=""
+):
 
     # -------------------------
     # Retrieval
@@ -46,7 +48,7 @@ def ask_question(question):
     )
 
     # -------------------------
-    # Question-Context Alignment
+    # Question Context Alignment
     # -------------------------
 
     alignment_data = compute_qcas(
@@ -84,18 +86,30 @@ def ask_question(question):
     )
 
     # -------------------------
-    # Final Answer Verification
+    # Final Answer Extraction
+    # -------------------------
+
+    final_answer = extract_final_answer(
+        answer_response
+    )
+
+    # -------------------------
+    # Answer Verification
     # -------------------------
 
     verification = verify_answer(
         question,
         context,
-        answer_response
+        final_answer
     )
 
     verdict = extract_verdict(
         verification
     )
+
+    # -------------------------
+    # Reliability Engine
+    # -------------------------
 
     reliability = compute_reliability(
         qcas=qcas,
@@ -110,15 +124,17 @@ def ask_question(question):
     # -------------------------
 
     log_result(
-        question,
-        qcas,
-        embedding_qcas,
-        metrics["trs"],
-        metrics["hoi"],
-        metrics["cl"],
-        verdict,
-        reliability["score"],
-        reliability["label"]
+        question=question,
+        generated_answer=final_answer,
+        ground_truth=ground_truth,
+        qcas=qcas,
+        embedding_qcas=embedding_qcas,
+        trs=metrics["trs"],
+        hoi=metrics["hoi"],
+        cl=metrics["cl"],
+        verdict=verdict,
+        reliability_score=reliability["score"],
+        reliability_label=reliability["label"]
     )
 
     # -------------------------
@@ -135,5 +151,6 @@ def ask_question(question):
         "metrics": metrics,
         "verdict": verdict,
         "documents": docs,
-        "reliability": reliability
+        "reliability": reliability,
+        "final_answer": final_answer
     }

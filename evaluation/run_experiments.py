@@ -44,20 +44,25 @@ def main():
 
         question = item["question"]
 
-        print(
-            f"\n[{index}/{total}] "
-            f"{question}"
+        ground_truth = item.get(
+            "ground_truth",
+            ""
         )
 
         try:
 
             result = ask_question(
-                question
+                question,
+                ground_truth
+            )
+
+            print(
+                f"[{index}/{total}]"
             )
 
             print(
                 f"Reliability: "
-                f"{result['reliability']['score']}"
+                f"{result['reliability']['score']:.3f}"
             )
 
             print(

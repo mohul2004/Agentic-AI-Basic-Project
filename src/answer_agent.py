@@ -1,4 +1,4 @@
-#Retriever -> Relevant Chunks -> Gemini -> Answer
+#Retriever -> Relevant Chunks -> LLM -> Answer
 
 import os
 
@@ -13,10 +13,11 @@ def get_llm():
     api_key = os.getenv("OPENROUTER_API_KEY")
 
     llm = ChatOpenAI(
-        model="meta-llama/llama-3.1-8b-instruct",
+        model="google/gemma-4-31b-it",
         base_url="https://openrouter.ai/api/v1",
         api_key=api_key,
-        temperature=0
+        temperature=0,
+        max_tokens=512
     )
 
     return llm

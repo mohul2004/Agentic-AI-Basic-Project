@@ -1,0 +1,51 @@
+question,generated_answer,ground_truth,qcas,embedding_qcas,trs,hoi,cl,verdict,reliability_score,reliability_label
+What is George Rankin's occupation?,George Rankin's occupation is politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.8,0.58,1.0,,0,SUPPORTED,0.803,RELIABLE
+What is John Mayne's occupation?,John Mayne's occupation is a journalist.,"[""journalist"", ""journo"", ""journalists""]",5.91,0.591,1.0,,0,SUPPORTED,0.807,RELIABLE
+What is Henry Feilden's occupation?,Henry Feilden's occupation is politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.97,0.597,1.0,,0,SUPPORTED,0.809,RELIABLE
+What is Kathy Saltzman's occupation?,"Kathy Saltzman's occupation is ""politician"".","[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",4.96,0.496,1.0,,0,SUPPORTED,0.774,QUESTIONABLE
+What is Eleanor Davis's occupation?,Eleanor Davis's occupation is cartoonist.,"[""cartoonist"", ""graphic artist"", ""animator"", ""illustrator""]",6.51,0.651,1.0,,0,SUPPORTED,0.828,RELIABLE
+What is Alexander Rinnooy Kan's occupation?,Alexander Rinnooy Kan's occupation is a mathematician.,"[""mathematician"", ""economist"", ""economists""]",6.34,0.634,1.0,,0,SUPPORTED,0.822,RELIABLE
+What is Scooter Braun's occupation?,Scooter Braun's occupation is a talent manager.,"[""talent manager"", ""artist manager"", ""band manager"", ""music manager"", ""musician manager"", ""manager"", ""pop entrepreneur""]",6.1,0.61,1.0,,0,SUPPORTED,0.814,RELIABLE
+What is Leona Detiège's occupation?,Leona Detiège's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",6.66,0.666,0.667,1,3,SUPPORTED,0.708,QUESTIONABLE
+"What is William Murray, 1st Earl of Mansfield's occupation?","William Murray, 1st Earl of Mansfield's occupation is a politician.","[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",7.53,0.753,1.0,,0,SUPPORTED,0.864,RELIABLE
+What is Þorsteinn Bachmann's occupation?,Þorsteinn Bachmann's occupation is Actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.99,0.699,1.0,,0,SUPPORTED,0.845,RELIABLE
+What is Herlyn Espinal's occupation?,Herlyn Espinal's occupation is a journalist.,"[""journalist"", ""journo"", ""journalists""]",6.23,0.623,1.0,,0,SUPPORTED,0.818,RELIABLE
+What is Jacob Kraemer's occupation?,Jacob Kraemer's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.96,0.696,1.0,,0,SUPPORTED,0.844,RELIABLE
+What is Fred C. Newmeyer's occupation?,Fred C. Newmeyer's occupation is film director.,"[""film director"", ""movie director"", ""director"", ""motion picture director"", ""film producer"", ""movie producer"", ""producer"", ""actor"", ""actress"", ""actors"", ""actresses""]",6.26,0.626,0.917,2,2,SUPPORTED,0.78,QUESTIONABLE
+What is Edward Corser's occupation?,Edward Corser's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",6.52,0.652,0.667,2,2,SUPPORTED,0.702,QUESTIONABLE
+What is Bae Geu-rin's occupation?,Bae Geu-rin's occupation is an actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.46,0.646,1.0,,0,SUPPORTED,0.826,RELIABLE
+What is Javier Alva Orlandini's occupation?,Javier Alva Orlandini's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",7.34,0.734,1.0,,0,SUPPORTED,0.857,RELIABLE
+What is Edgar Allan Poe's occupation?,Edgar Allan Poe's occupation is playwright.,"[""journalist"", ""journo"", ""journalists"", ""playwright"", ""dramatist"", ""playwrite"", ""scriptwriter"", ""poet"", ""poetess"", ""bard""]",6.07,0.607,1.0,,0,SUPPORTED,0.812,RELIABLE
+What is John Finlay's occupation?,John Finlay's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.39,0.539,1.0,,0,SUPPORTED,0.789,QUESTIONABLE
+What is John Floyd's occupation?,John Floyd's occupation is Politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.82,0.582,1.0,,0,SUPPORTED,0.804,RELIABLE
+What is Sachiko Kokubu's occupation?,Sachiko Kokubu's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses"", ""model"", ""fashion model"", ""sitter"", ""poser""]",7.07,0.707,1.0,,0,SUPPORTED,0.847,RELIABLE
+What is Rudolf Hilferding's occupation?,Rudolf Hilferding's occupation is a politician.,"[""economist"", ""economists"", ""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",6.06,0.606,1.0,,0,SUPPORTED,0.812,RELIABLE
+"What is Charles Strachey, 4th Baron O'Hagan's occupation?","Charles Strachey, 4th Baron O'Hagan's occupation is a politician.","[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",7.62,0.762,1.0,,0,SUPPORTED,0.867,RELIABLE
+What is Akari Hayami's occupation?,Akari Hayami is an actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.96,0.696,1.0,,0,SUPPORTED,0.844,RELIABLE
+What is Richard Martin's occupation?,Richard Martin's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.06,0.606,1.0,,0,SUPPORTED,0.812,RELIABLE
+"What is Harvey Peltier, Sr.'s occupation?","Harvey Peltier, Sr.'s occupation is a lawyer.","[""lawyer"", ""attorney"", ""solicitor"", ""barrister"", ""lawyers"", ""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.57,0.557,1.0,,0,SUPPORTED,0.795,QUESTIONABLE
+What is Paris's occupation?,actor,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.68,0.668,1.0,,0,SUPPORTED,0.834,RELIABLE
+What is Fairfax M. Cone's occupation?,Fairfax M. Cone's occupation is a businessperson.,"[""businessperson"", ""business person"", ""dealer"", ""businesswoman"", ""business man"", ""business woman"", ""businessman""]",6.53,0.653,0.667,3,1,SUPPORTED,0.701,QUESTIONABLE
+What is Colleen Zenk Pinter's occupation?,Colleen Zenk Pinter's occupation is an actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.84,0.684,1.0,,0,SUPPORTED,0.839,RELIABLE
+What is Thomas McMurtry's occupation?,Test pilot,"[""test pilot""]",4.87,0.487,1.0,,0,SUPPORTED,0.77,QUESTIONABLE
+What is Albert Bates's occupation?,Albert Bates's occupation is a lawyer.,"[""lawyer"", ""attorney"", ""solicitor"", ""barrister"", ""lawyers""]",5.49,0.549,1.0,,0,SUPPORTED,0.792,QUESTIONABLE
+What is Heath's occupation?,Heath's occupation is a songwriter.,"[""songwriter"", ""song writer""]",5.75,0.575,1.0,,0,SUPPORTED,0.801,RELIABLE
+What is Wise's occupation?,Wise's occupation is a record producer.,"[""record producer"", ""music producer""]",6.05,0.605,1.0,,0,SUPPORTED,0.812,RELIABLE
+What is Stevie Cameron's occupation?,Stevie Cameron's occupation is a journalist.,"[""journalist"", ""journo"", ""journalists""]",6.31,0.631,1.0,,0,SUPPORTED,0.821,RELIABLE
+What is Yoshiki Tonogai's occupation?,Yoshiki Tonogai's occupation is a manga artist.,"[""mangaka"", ""manga artist""]",6.46,0.646,1.0,,0,SUPPORTED,0.826,RELIABLE
+What is Geeling Ng's occupation?,Geeling Ng's occupation is a restaurateur.,"[""restaurateur"", ""gastronomist"", ""restauranteur""]",7.05,0.705,1.0,,0,SUPPORTED,0.847,RELIABLE
+What is Bruce McDaniel's occupation?,composer,"[""composer""]",6.56,0.656,1.0,,0,SUPPORTED,0.83,RELIABLE
+What is Thomas R. Whitney's occupation?,Thomas R. Whitney's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",6.05,0.605,1.0,,0,SUPPORTED,0.812,RELIABLE
+What is William Lescaze's occupation?,William Lescaze's occupation is Architect.,"[""architect""]",6.12,0.612,1.0,,0,SUPPORTED,0.814,RELIABLE
+What is Edwin Wallock's occupation?,Edwin Wallock's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",5.26,0.526,1.0,,0,SUPPORTED,0.784,QUESTIONABLE
+What is Tsutomu Seki's occupation?,Tsutomu Seki's occupation is astronomer.,"[""astronomer""]",6.69,0.669,1.0,,0,SUPPORTED,0.834,RELIABLE
+What is Matthew McKay's occupation?,Matthew McKay's occupation is a dentist.,"[""dentist"", ""dentists"", ""dental surgeon""]",6.56,0.656,1.0,,0,SUPPORTED,0.83,RELIABLE
+What is Dominick Bellizzi's occupation?,Dominick Bellizzi's occupation is jockey.,"[""jockey""]",5.71,0.571,1.0,,0,SUPPORTED,0.8,QUESTIONABLE
+What is William Watson's occupation?,Physician,"[""physician"", ""physicians"", ""medical doctor"", ""medical practitioner"", ""doctor"", ""medical doctors""]",5.86,0.586,1.0,,0,SUPPORTED,0.805,RELIABLE
+What is Sarah Dawn Finer's occupation?,Sarah Dawn Finer's occupation is songwriter.,"[""actor"", ""actress"", ""actors"", ""actresses"", ""songwriter"", ""song writer""]",6.39,0.639,1.0,,0,SUPPORTED,0.824,RELIABLE
+What is Brendan Canty's occupation?,Brendan Canty's occupation is musician.,"[""composer"", ""musician"", ""musical artist""]",6.12,0.612,1.0,,0,SUPPORTED,0.814,RELIABLE
+What is María Elena Marqués's occupation?,María Elena Marqués's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",6.88,0.688,1.0,,0,SUPPORTED,0.841,RELIABLE
+What is Michael Arad's occupation?,Michael Arad's occupation is architect.,"[""architect""]",6.31,0.631,1.0,,0,SUPPORTED,0.821,RELIABLE
+What is Patrick O'Brien Demsey's occupation?,Patrick O'Brien Demsey's occupation is actor.,"[""actor"", ""actress"", ""actors"", ""actresses""]",5.93,0.593,0.667,3,1,SUPPORTED,0.68,QUESTIONABLE
+What is Ole Krarup's occupation?,Ole Krarup's occupation is a politician.,"[""politician"", ""political leader"", ""political figure"", ""polit."", ""pol""]",5.99,0.599,1.0,,0,SUPPORTED,0.81,RELIABLE
+What is Antonio Álvarez Alonso's occupation?,Composer,"[""composer"", ""pianist""]",6.92,0.692,1.0,,0,SUPPORTED,0.842,RELIABLE
