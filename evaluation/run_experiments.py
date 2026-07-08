@@ -15,7 +15,7 @@ def load_questions():
 
     json_path = os.path.join(
         current_dir,
-        "questions.json"
+        "questions_popqa.json"
     )
 
     with open(

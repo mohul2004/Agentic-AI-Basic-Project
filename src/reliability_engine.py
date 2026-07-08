@@ -6,6 +6,7 @@ def compute_reliability(
         trs,
         hoi,
         cl,
+        total_steps,
         verifier_verdict
 ):
 
@@ -20,12 +21,16 @@ def compute_reliability(
     )
 
     hoi_penalty = (
-        min(hoi / 10, 1.0)
-        if hoi is not None
-        else 0.0
+        0.0
+        if hoi is None or total_steps <= 1
+        else (total_steps - hoi) / (total_steps - 1)
     )
 
-    cl_penalty = min(cl / 10, 1.0)
+    cl_penalty = (
+        cl / total_steps
+        if total_steps > 0
+        else 0.0
+    )
 
     score = (
         0.35 * q +

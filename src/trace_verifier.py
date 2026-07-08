@@ -168,3 +168,4 @@ def verify_trace(
     return {
         "steps": results
     }
+

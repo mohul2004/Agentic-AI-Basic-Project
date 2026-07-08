@@ -70,5 +70,6 @@ def compute_metrics(trace_verification_text):
         "labels": labels,
         "trs": trs,
         "hoi": hoi,
-        "cl": cl
+        "cl": cl,
+        "total_steps": len(labels)
     }

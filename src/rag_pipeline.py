@@ -116,6 +116,7 @@ def ask_question(
         trs=metrics["trs"],
         hoi=metrics["hoi"],
         cl=metrics["cl"],
+        total_steps=metrics["total_steps"],
         verifier_verdict=verdict
     )
 
@@ -125,6 +126,7 @@ def ask_question(
 
     log_result(
         question=question,
+        retrieved_context=context,
         generated_answer=final_answer,
         ground_truth=ground_truth,
         qcas=qcas,
@@ -132,6 +134,7 @@ def ask_question(
         trs=metrics["trs"],
         hoi=metrics["hoi"],
         cl=metrics["cl"],
+        total_steps=metrics["total_steps"],
         verdict=verdict,
         reliability_score=reliability["score"],
         reliability_label=reliability["label"]

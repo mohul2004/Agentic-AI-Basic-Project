@@ -13,7 +13,7 @@ def get_llm():
     api_key = os.getenv("OPENROUTER_API_KEY")
 
     llm = ChatOpenAI(
-        model="google/gemma-4-31b-it",
+        model="meta-llama/llama-3.1-70b-instruct",
         base_url="https://openrouter.ai/api/v1",
         api_key=api_key,
         temperature=0,

@@ -6,6 +6,7 @@ CSV_FILE = "results.csv"
 
 def log_result(
         question,
+        retrieved_context,
         generated_answer,
         ground_truth,
         qcas,
@@ -13,6 +14,7 @@ def log_result(
         trs,
         hoi,
         cl,
+        total_steps,
         verdict,
         reliability_score,
         reliability_label
@@ -30,9 +32,9 @@ def log_result(
         writer = csv.writer(file)
 
         if not file_exists:
-
             writer.writerow([
                 "question",
+                "retrieved_context",
                 "generated_answer",
                 "ground_truth",
                 "qcas",
@@ -40,6 +42,7 @@ def log_result(
                 "trs",
                 "hoi",
                 "cl",
+                "total_steps",
                 "verdict",
                 "reliability_score",
                 "reliability_label"
@@ -47,6 +50,7 @@ def log_result(
 
         writer.writerow([
             question,
+            retrieved_context,
             generated_answer,
             ground_truth,
             qcas,
@@ -54,6 +58,7 @@ def log_result(
             trs,
             hoi,
             cl,
+            total_steps,
             verdict,
             reliability_score,
             reliability_label
